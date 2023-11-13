@@ -1,0 +1,15 @@
+.shoppingBag {
+  position: relative;
+}
+
+.shoppingBag span {
+  position: absolute;
+  top: 35px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.icon {
+  font-size: 38px;
+  color: #fff;
+}

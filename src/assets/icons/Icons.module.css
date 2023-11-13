@@ -1,0 +1,12 @@
+.productIcon {
+  color: #005b41;
+  font-size: 2.2rem;
+}
+.productIcon:hover {
+  transform: scale(1.1);
+}
+
+.trashIcon {
+  color: #9d174d;
+  font-size: 1.9rem;
+}
