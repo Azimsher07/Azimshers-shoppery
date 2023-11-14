@@ -1,7 +1,8 @@
 import styles from "./Product.module.css";
 import { ProductIcon } from "../../../icons/Icons";
 
-export const Product = ({ tech, notify }) => {
+export const Product = ({ tech, notify, addProductHandler }) => {
+  const clickHandler = () => addProductHandler(tech);
   return (
     <div className={styles.box}>
       <img src={tech.images[0]} alt="product" />
@@ -12,7 +13,7 @@ export const Product = ({ tech, notify }) => {
           {tech.price}
         </h4>
 
-        <ProductIcon notify={notify} />
+        <ProductIcon notify={notify} clickHandler={clickHandler} />
       </div>
     </div>
   );

@@ -1,0 +1,106 @@
+.cart {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cart > h2 {
+  letter-spacing: 2.5px;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.cart > h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.chosenTechs {
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 0 2px #252b48;
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.leftSide {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.leftSide > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide img {
+  width: 9rem;
+  height: 6rem;
+  border-radius: 10px;
+  box-shadow: 0 3px #9d174d;
+}
+
+.leftSide > p {
+  font-size: 1rem;
+  margin-top: -40px;
+}
+
+.calc {
+  display: flex;
+}
+
+.calc button {
+  color: rgb(157, 23, 77);
+  cursor: pointer;
+  background-color: #faf9f9;
+  height: 1.6rem;
+  width: 2.5rem;
+  border: 1px solid #dcd9d9;
+}
+
+.calc p {
+  border: 1px solid #dcd9d9;
+  height: 1.6rem;
+  width: 2.5rem;
+  padding: 0.15rem;
+  color: #9d174d;
+  font-weight: 700;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.rightSide div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rightSide h2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+.rightSide span {
+  color: #9d174d;
+}
+
+.h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+}

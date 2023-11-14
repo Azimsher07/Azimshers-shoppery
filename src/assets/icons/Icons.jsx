@@ -1,10 +1,13 @@
-import { useContext } from "react";
 import styles from "./Icons.module.css";
 
-export const ProductIcon = ({ notify }) => {
+export const ProductIcon = ({ notify, clickHandler }) => {
+  const notifyFoo = () => {
+    notify("added");
+    clickHandler();
+  };
   return (
     <svg
-      onClick={notify}
+      onClick={notifyFoo}
       className={styles.productIcon}
       stroke="currentColor"
       fill="currentColor"
